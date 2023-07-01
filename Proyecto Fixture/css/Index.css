@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Pompiere', cursive;
+}  
+nav{
+    position: fixed;
+    background-color: rgb(243, 198, 198);
+    text-align:start;
+    padding: 20px 0px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav a{
+    color: black;
+    margin: 3px;
+    padding: 0px 05px;
+}
+
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+}
+
+.fotoPrincipal{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.titulo{
+    background-color: rgb(243, 198, 198);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.partido1 , .partido3 ,.partido5{
+    background-color: rgb(197, 188, 188);
+    padding: 15px;
+}
+
+#textoSuperior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#grupo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#grupo p{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+}
+span{
+    padding: 0px;
+    margin: 0px;
+}
+aside{
+    padding: 0px;
+    margin: 0px;
+}
+.partido2, .partido4, .partido6 {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.pieDePagina{
+    background-color: rgb(232, 189, 189);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#fasesGrupo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+#octavos1,#octavos3,#octavos5,#octavos7,#cuartosFinal1,#cuartosFinal3,#semifinal1,#tercerpuesto,#final{
+    background-color: rgb(197, 188, 188);
+    width: 100%;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+#octavos2,#octavos4,#octavos6,#octavos8,#cuartosFinal2,#cuartosFinal4,#semifinal2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.FasesDeGrupo ,.octavosDeFinal, .cuartosDeFinal, .semifinales, .tercerPuestos,.Final{
+    padding: 1px 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.volverArriba{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+h2{
+    padding: 10px;
+}
+article {
+   width: 400px;
+}
+#octavos1,#cuartosFinal1,#semifinal1,#tercerpuesto,#final{
+    margin-top: 10px;
+}
+
+@media all and (max-width: 	768px){
+    *{
+        font-size: 25px;
+    }
+    .fotoPrincipal img{
+        width: 100%;
+        padding-top: 80px;
+    } 
+    nav{
+    text-align:center;
+    }  
+    .FasesDeGrupo ,.octavosDeFinal, .cuartosDeFinal, .semifinales, .tercerPuestos,.Final{
+    padding: 0px 20px;
+    margin-top: 10px;
+    }
+    article{
+        margin-right: 23px;
+        margin-left: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (min-width: 	768px) and (max-width: 991px){
+    *{
+        font-size: 25px;
+    }
+    .fotoPrincipal img{
+       
+        text-align: center;
+        padding-top: 30px;
+        width: 250px;
+    }
+    article{
+        width: 316px;
+        margin-right: 23px;
+        margin-left: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (min-width: 991px) and (max-width: 1399px){
+    
+    article{
+        
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    nav{
+        padding: 10px 0px;
+        font-size: 20px;
+        margin: 0px;
+    }
+    .volverArriba, .pieDePagina{
+        font-size: 20px;
+    }
+    .FasesDeGrupo ,.octavosDeFinal, .cuartosDeFinal, .semifinales, .tercerPuestos,.Final{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+   
+}

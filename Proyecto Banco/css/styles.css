@@ -1,0 +1,236 @@
+#iconoMano, #iconoOjo, #iconoTransferencia{
+    color: red;
+    font-size: 40px;
+}
+#iconoDolar, #iconoRobot, #iconoPago{
+    color: green;
+    font-size: 40px;
+}
+#iconoCara, #iconoHuella , #iconoPersona{
+    color: blue;
+    font-size: 40px;
+}
+#iconoPuzzle, #iconoTarjetaCredito{
+    color: aqua;
+    font-size: 40px;
+}
+#iconoMantenimiento{
+    color: gold;
+    font-size: 40px;
+}
+#tarjetaIndex{
+    text-align: center;
+    box-shadow: 1px 2px 5px black ;
+    padding: 20px 0px;
+    width: 100%;
+    height: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+}
+
+.carousel-inner img{ 
+    object-fit: cover;
+    width: 100%;
+    height: 70vh;
+}
+#invitacionAppMovil,#bannerSuperior{
+    background-color: rgb(63, 63, 215);
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+#invitacionAppMovil .card{
+background-color: rgb(78, 74, 74);
+width: 100%;
+}
+#invitacionAppMovil i{
+    color:white;
+    text-align:end;
+    font-size: 40px;
+    font-style:normal;
+
+}
+#textoCard{ 
+    display: block;
+    align-items:center;
+    text-align: start;
+}
+#textoCard .h2{
+    font-size: 25px;
+    text-align: start;
+}
+.display-1{
+    font-size: 60px;
+}
+.display-6{
+    font-size: 20px;
+}
+#informacionPiePagina,a {
+    color:dimgray;
+    
+}
+#tituloPiePagina h1{
+    font-size: 17px;
+}
+#textoCentro, #errorPaginaNoRealizada{
+    text-align: center;
+    padding: 50px 130px;
+}
+
+#contenedorPiePagina{
+    padding: 50px 130px;
+    background-color: black;
+}
+#tituloTarjeta{
+    text-align: start;
+    color: blue;
+}
+#tipsInterno ,#textoInterno ,#listaPrecio,#textoSeguridad{
+    padding: 40px 130px;
+}
+#precioTarjeta{
+    background-color: blue;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+#listaPrecio li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#listaPrecio .list-group-item i, .card-body, span{
+    margin: 0px 29px;
+}
+@media all and (max-width: 	767px){
+    .carousel-inner img{ 
+        object-fit: cover;
+        width: 100%;
+        height: 30vh;
+    }
+    #textoSeguridad{
+        display: flex;
+        justify-content: center;
+    
+        padding: 5px;
+    }
+    #tarjetaIndex {
+        text-align: center;
+        box-shadow: 1px 2px 5px black;
+        padding: 7px 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 90%;
+        margin-right: 0px;
+}
+.card{
+    margin: 5px;
+}
+#invitacionAppMovil,#bannerSuperior{
+    background-color: rgb(63, 63, 215);
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+.display-1{
+    font-size: 40px;
+}
+.display-6{
+    font-size: 20px;
+}
+#invitacionAppMovil img{
+    width: 70%;
+}
+#contenedorPiePagina{
+    padding: 20px 0px;
+}
+#informacionPiePagina{
+    padding-right: 0px;
+    margin-left: 10px;
+}
+#listaPrecio{
+    padding: 14px 16px;
+    margin: 2px;
+   
+}
+#listaPrecio li{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+#listaPrecio .list-group-item .card-body{
+    width: 90%;
+}
+#listaPrecio .list-group-item i, .card-body, span{
+    margin: 0px 8px;
+}
+#iconoTarjetaCredito,#iconoTransferencia,#iconoPago,#iconoPersona,#iconoMantenimiento{
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+#textoCentro{
+    padding: 14px 7px;
+}
+#tipsInterno, #textoInterno {
+    padding: 35px 0px;
+}
+#tipsInterno{
+    display: flex;
+    justify-content:center ;
+}
+#tipsInterno .card{
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+}
+
+@media all and (min-width: 	768px) and (max-width: 1399px){
+    #listaPrecio{
+        padding: 19px 74px;
+       
+    }
+    #listaPrecio .list-group-item i, .card-body, span{
+        margin: 0px 8px;
+    }
+    #textoCentro{  
+    padding: 49px 41px;
+    }
+    #textoSeguridad{
+        padding: 30px 15px;
+    }
+    #tarjetaIndex {
+        text-align: center;
+        box-shadow: 1px 2px 5px black;
+        margin: 7px 7px;
+        width: 100%;
+        height: 90%;
+        
+    }
+    
+    .carousel-inner img{ 
+        object-fit: cover;
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+
+
+/*
+    padding: 20px 59px;
+    padding: 19px 74px;
+}
+
+    text-align: center;
+    padding: 14px 7px;
+*/

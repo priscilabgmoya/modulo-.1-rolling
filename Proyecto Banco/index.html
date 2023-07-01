@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="practica de bootstrap" />
+    <meta name="keywords" content="Bootstrap, grillas, system" />
+    <meta name="author" content="Garcia Moya,Priscila Belen " />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="#"><b>RollingBank</b></a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navItem"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            id="navItem"
+            class="collapse navbar-collapse justify-content-md-end"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./page/quienesSomos.html" class="nav-link"
+                  >¿Quienes Somos?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./page/precio.html" class="nav-link">Precio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./page/seguridad.html" class="nav-link">Seguridad</a>
+              </li>
+              <li class="nav-item">
+                <a href="./page/roboOextravio.html" class="nav-link"
+                  >Robo o Extravio</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container-fluid p-0 m-0">
+        <article class="row m-0">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide p-0 m-0"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner mx-0">
+              <div class="carousel-item active">
+                <img
+                  src="./img/banner/bitcoin.jpg"
+                  class="d-block w-100"
+                  alt="bitcoin"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/banner/cajero.jpg"
+                  class="d-block w-100"
+                  alt="cajero"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/banner/dolar.jpg"
+                  class="d-block w-100"
+                  alt="dolar"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <article
+          class="row m-0  d-flex  align-items-md-center justify-content-md-between"
+          id="textoSeguridad"
+
+        >
+          <aside class="col-xl-4 col-xs-3 col-md-6">
+            <div class="card " id="tarjetaIndex">
+              <i
+                class="bi bi-hand-thumbs-up d-flex justify-content-center p-0 m-0"
+                id="iconoMano"
+              ></i>
+              <div class="card-body">
+                <h4 class="card-title">Sin Sorpresa</h4>
+                <p class="card-text">
+                  Somos Transparentes, no vas a encontar letra chica
+                </p>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-xl-4 col-xs-3 col-md-6  ">
+            <div class="card" id="tarjetaIndex">
+              <i
+                class="bi bi-emoji-sunglasses d-flex justify-content-center p-0 m-0"
+                id="iconoCara"
+              ></i>
+              <div class="card-body">
+                <h4 class="card-title">Aprobado</h4>
+                <p class="card-text">
+                  Estamos Autorizados y Regularizados por el Banco Central
+                </p>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-xl-4  col-xs-3 col-md-6  ">
+            <div class="card" id="tarjetaIndex">
+              <i
+                class="bi bi-currency-dollar d-flex justify-content-center p-0 m-0"
+                id="iconoDolar"
+              ></i>
+              <div class="card-body">
+                <h4 class="card-title">Sin Costo</h4>
+                <p class="card-text">
+                  Todas tus operaciones diarias están incluidas
+                </p>
+              </div>
+            </div>
+          </aside>
+        </article>
+        <article class="row  m-0 flex-column flex-md-row " id="textoSeguridad">
+          <div class="col-md-7">
+            <img src="./img/iphone-illustration-sec.png" width="100%" alt="" />
+          </div>
+          <aside class="col">
+            <div class="row">
+              <p class="h3">Tu seguridad Como Prioridad</p>
+              <p>
+                Seguimos las mejores prácticas en Cyberseguridad sin complicarte
+                tu operación diaria.
+              </p>
+            </div>
+            <div class="row ">
+              <div class="col-xl-6 col-md-12">
+                <i class="bi bi-eye" id="iconoOjo"></i>
+                <p class="h3">Biometría</p>
+                <p>
+                  Nuestra tecnología te permite acceder a tu cuenta usando tu
+                  huella digital o tu cara.
+                </p>
+              </div>
+              <div class="col-xl-6 col-md-12">
+                <i class="bi bi-fingerprint" id="iconoHuella"></i>
+                <p class="h3">Segundo Factor</p>
+                <p>
+                  Usamos un Token invisible para todas las operaciones que
+                  hagas.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-6 col-md-12">
+                <i class="bi bi-puzzle" id="iconoPuzzle"></i>
+                <p class="h3">Personal</p>
+                <p>
+                  Vas a poder ingresar desde de un dispositovo a la vez a tu
+                  cuenta
+                </p>
+              </div>
+              <div class="col-xl-6 col-md-12">
+                <i class="bi bi-robot" id="iconoRobot"></i>
+                <p class="h3">100% encriptado</p>
+                <p>
+                  Usamos un Token invisible para todas las operaciones que
+                  hagas. Todas las transacciones son encriptadas para tu mayor
+                  seguridad.
+                </p>
+              </div>
+            </div>
+          </aside>
+        </article>
+        <article
+          class="row d-flex justify-content-center align-items-center m-0"
+          id="invitacionAppMovil"
+        >
+          <h1 class="display-1">RollingBank Te esta Esperando</h1>
+          <h1 class="display-6">
+            Baja la app y viví una nueva experencia. Empezá creando tu cuenta
+            con soló tu DNI
+          </h1>
+          <div class="row m-0 d-flex justify-content-center">
+            <div class="col-xl-3  col-xs-5 col-md-6">
+              <img
+                src="./img/badge-apple-store.svg"
+                width="70%"
+                alt="appleStore"
+              />
+            </div>
+            <div class="col-xl-3 col-xs-5 col-md-6">
+              <img
+                src="./img/google-play-badge-bb.svg"
+                width="70%"
+                alt="googlePlay"
+              />
+            </div>
+          </div>
+          
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid" id="contenedorPiePagina">
+        <div class="row" id="tituloPiePagina">
+          <h1 class="text-light ">
+            <b>RollingBank</b>
+            <i class="bi bi-facebook" id="iconoFacebook"></i>
+            <i class="bi bi-twitter" id="iconoTwitter"></i>
+            <i class="bi bi-instagram" id="iconoInstagram"></i>
+          </h1>
+        </div>
+        <section class="row m-auto" id="informacionPiePagina ">
+          <article class="col-xl-3 col-xs-6 flex-column flex-md-row  col-md-6">
+            <p class="h4 ">Navegacion</p>
+            <ul style="list-style: none">
+              <li><a href="./page/quienesSomos.html">¿Quienes Somos?</a></li>
+              <li><a href="./page/precio.html">Precio</a></li>
+              <li><a href="./page/seguridad.html">Seguridad</a></li>
+              <li><a href="./page/error404.html">Ayuda</a></li>
+              <li><a href="./page/roboOextravio.html">Robo o Extravio</a></li>
+            </ul>
+          </article>
+          <article class="col-xl-3 col-xs-6  col-md-6">
+            <p class="h4 ">Legales cambiar</p>
+            <ul style="list-style: none">
+              <li><a href="./page/error404.html">Regimen de Transparencia</a></li>
+              <li><a href="./page/error404.html">Usuario Bancario</a></li>
+              <li><a href="./page/error404.html">Conducta Bancaria</a></li>
+              <li><a href="./page/error404.html">Estados Contables</a></li>
+              <li><a href="./page/error404.html">Terminos y Condiciones</a></li>
+            </ul>
+          </article>
+          <div class="col-xl-3 col-xs-6  col-md-6 ">
+            <img
+              src="./img/usuariosfinancieros.png"
+              width="70%"
+              alt="Usuarios Financieros"
+            />
+          </div>
+          <div class="col-xl-3 col-xs-6  col-md-6 ">
+            <p class="h4">Unite</p>
+            <img
+              src="./img/badge-apple-store.svg"
+              width="70%"
+              alt="appleStore"
+            />
+            <br />
+            <br />
+            <img
+              src="./img/google-play-badge-bb.svg"
+              width="70%"
+              alt="googlePlay"
+            />
+          </div>
+        </section>
+        <div class="row-cols-xl-3">
+          <p
+            class="text-light d-flex justify-content-center align-items-baseline m-3 p-3"
+          >
+            &copy; 2022 todos los derechos reservados - Garcia Moya Priscila
+            Belen - Comision 41i
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
